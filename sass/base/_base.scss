@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  
+  body {
+      margin: 0;
+    
+      font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+      color: var(--primary-text-color);
+      background-color: var(--primary-background-color);
+      letter-spacing: 0.03em;
+      font-size: 14px;
+    }
+  

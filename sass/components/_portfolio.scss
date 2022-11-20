@@ -1,0 +1,127 @@
+.btn__list {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+  .btn__item {
+    margin-right: 8px;
+
+    &:last-child {
+        margin-right: 0px;
+      }
+    }
+
+  .btn__button {
+  
+    padding: 6px 22px;
+    display: inline-block;
+    min-width: 73px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+  
+    text-align: center;
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color-2);
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);
+    color: var(--hero-text-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+  }
+  
+  .project {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .project__item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+  .project__link {
+
+    display: block;
+
+     &:hover, &:focus {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+          1px 4px 6px rgba(0, 0, 0, 0.16);
+      } 
+  }
+  
+  .project__overlay {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .project__thumb {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  
+    transform: translateY(100%);
+  
+    background-color: rgba(33, 150, 243, 0.9);
+    padding: 63px 24px;
+    
+  .project__link:hover & {
+    transform: translateY(0);
+  }
+  }
+
+  .project__content {
+    margin: 0px;
+  
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    color: var(--hero-text-color);
+    font-style: normal;
+  }
+  
+  .project__title {
+    margin-bottom: 4px;
+    margin-top: 0px;
+  
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    font-family: inherit;
+    color: var(--primary-text-color);
+  }
+  
+  .project__subtitle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.8;
+    font-family: inherit;
+  }
+  
+  .project__no-gap {
+    display: block;
+  }
+  .project__border {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-bottom: 1px solid #ececec;
+    border-left: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+    border-top: 1px solid transparent;
+  }
+  

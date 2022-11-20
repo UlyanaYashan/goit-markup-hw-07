@@ -1,0 +1,82 @@
+.site-nav__link {
+
+    transition: var(--transition-color);
+    &::after {
+        transition: var(--transition-opacity);
+    }
+}
+.contacts__nav {
+    transition: var(--transition-color);
+}
+.btn__button {
+    transition: var(--transition-background-color), var(--transition-color), var(--transition-box-shadow);
+}
+.project__link {
+
+    transition: var(--transition-box-shadow);
+}
+.project__thumb {
+    transition: var(--transition-transform);
+}
+.network__twitter,
+.network__instagram,
+.network__facebook,
+.network__linkedin {
+  transition: var(--transition-color), var(--transition-background-color);
+}
+.footer-link-instagram,
+  .footer-link-twitter,
+  .footer-link-facebook,
+  .footer-link-linkedin {
+  
+    transition: var(--transition-background-color);
+  }
+  .footer-network__instagram,
+  .footer-network__twitter,
+  .footer-network__facebook,
+  .footer-network__linkedin {
+
+    transition:var(--transition-background-color);
+  }
+  .hero__btn {
+    transition: var(--transition-background-color);
+  }
+  
+  .address__residence {
+
+    transition: var(--transition-color);
+  }
+
+  .address__link {
+    transition:var(--transition-color);
+  }
+  .address__telephone {
+    transition: var(--transition-color);
+  }
+  .footer-form__lable {
+    transition: var(--transition-transform);
+  }
+  client__logo {
+    transition:var(--transition-color);
+  }
+  .close-btn {
+    transition: var(--transition-border), var(--transition-fill);
+  }
+  .modal__input--name,
+  .modal__input--mail,
+  .modal__input--tel {
+    transition: var(--transition-border-color);
+  }
+  .modal__input--comment {
+    transition: var(--transition-border-color);
+  }
+  .checkbox__icon .checkbox__icon--no-checked {
+    transition: var(--transition-opacity);
+  }
+  .checkbox__icon .checkbox__icon--checked {
+    transition: var(--transition-opacity);
+  }
+  .modal__input--icon {
+    transition: var(--transition-fill);
+  }
+  

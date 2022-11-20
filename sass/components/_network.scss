@@ -1,0 +1,67 @@
+.network {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .network__link {
+    margin-right: 10px;
+
+    &:last-child {
+        margin-right: 0px;
+      }
+  }
+ 
+  .network__twitter,
+  .network__instagram,
+  .network__facebook,
+  .network__linkedin {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 44px;
+    height: 44px;
+    color: #afb1b8;
+    border-radius: 50%;
+  }
+  
+  .footer-link-instagram,
+  .footer-link-twitter,
+  .footer-link-facebook,
+  .footer-link-linkedin {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--primary-background-color);
+
+  }
+  
+  .network__twitter:hover,
+  .network__twitter:focus,
+  .network__instagram:hover,
+  .network__instagram:focus,
+  .network__facebook:hover,
+  .network__facebook:focus,
+  .network__linkedin:hover,
+  .network__linkedin:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-background-color);
+  }
+  
+  .instagram-icon,
+  .twitter-icon,
+  .facebook-icon,
+  .linkedin-icon {
+    fill: currentColor;
+  }
+  
+  
+  .footer-network__instagram,
+  .footer-network__twitter,
+  .footer-network__facebook,
+  .footer-network__linkedin {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--primary-background-color);
+  
+  }
+  
+  
